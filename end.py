@@ -5,7 +5,7 @@ if __name__ == '__main__':
 
     capture = cv2.VideoCapture(video)
     print("success,连接成功")
-    face_cascade = cv2.CascadeClassifier('D://python code//opencv//haarcascade_frontalface_default.xml')
+    face_cascade = cv2.CascadeClassifier('D:\python code\opencv\opencvmodel\haarcascade_frontalface_default.xml')#改成自己的文件路径（绝对路径）
     num = 0
 
     while True:
